@@ -46,11 +46,15 @@ You should go back to the researcher and ask for a valid code. Don't enter valid
 **Which are the project codes for routinary taks in the radiopharmacy?**
 There are some special project codes for internal tasks:
 
-+------------+------------------------+
-| Code       | Use                    |
-+============+========================+
-| body row 1 | column 2               |
-+------------+------------------------+
++------------+--------------------------------------------+
+| Code       | Use                                        |
++============+============================================+
+| cfc        | Conditioning for cyclotron                 |
++------------+--------------------------------------------+
+| cdr        | Cyclotron Development Run                  |
++------------+--------------------------------------------+
+| rpt        | Cyclotron Radiotracer Practice or Training |
++------------+--------------------------------------------+
 
 **I made a compound but it's not in the database** If the compound is a one-time thing, you should choose the generic compounds associated to the isotope you used. For example, if you made something with C11, you should choose C11-Generic as compound. If the compound is something you do often, you should add it to the database (coming soon).
 
