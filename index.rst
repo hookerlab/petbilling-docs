@@ -6,17 +6,16 @@
 Welcome to petbilling-docs's documentation!
 ===========================================
 
-Contents:
+Radiopharmacy
+-------------
 
 .. toctree::
    :maxdepth: 2
 
+   radiopharmacy
 
+PET/MR scanners
+---------------
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. toctree::
+   :maxdepth: 2
