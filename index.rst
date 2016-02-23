@@ -19,3 +19,5 @@ PET/MR scanners
 
 .. toctree::
    :maxdepth: 2
+
+   petmr_scanners
