@@ -30,6 +30,13 @@ The difference between isotopes and compounds is that compounds require a synthe
 .. Note::
    It's important that you choose the right compound even if many are charged the same. The compound has information about the isotope on it and we use this to calculate activities for both nuclear safety and image analysis.
 
+Generic compounds
+-----------------
+
+Generic compounds are compounds that are not in the database because they are still in development or they will be used only a few times. When you make only of this compounds, you should choose ``C11-Generic`` or ``F18-Generic``, depending on the isotope used. When you do that a new box will pop out so you can enter a (possible made-up) name for the compound. Also, comment will be automatically added to the database, so you don't have to type this information in the comment field.
+
+If you are releasing this to Grae, you should use an Rx number like ``160223-01C11GEN``, instead of ``160223-01BEX``, and then add a note with the actual name of the compound.
+
 How the money is charged
 ------------------------
 
