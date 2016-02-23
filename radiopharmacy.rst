@@ -20,6 +20,7 @@ Meaning of the diffferent fields
 - *time*: time at which the starting activity was measured.
 - *synthesis OK*: wheter the synthesis was sucessful (for compounds only).
 - *quality control OK*: wheter the quality control passed (for compounds only).
+- *comments*: write here anything relevant to the product you made. Sometimes the application adds some comments, so you don't have to repeat common comments (see FAQs.)
 
 What is a compound and what is an isotope
 -----------------------------------------
@@ -45,7 +46,16 @@ You should go back to the researcher and ask for a valid code. Don't enter valid
 **Which are the project codes for routinary taks in the radiopharmacy?**
 There are some special project codes for internal tasks:
 
++------------+------------------------+
+| Code       | Use                    |
++============+========================+
+| body row 1 | column 2               |
++------------+------------------------+
+
 **I made a compound but it's not in the database** If the compound is a one-time thing, you should choose the generic compounds associated to the isotope you used. For example, if you made something with C11, you should choose C11-Generic as compound. If the compound is something you do often, you should add it to the database (coming soon).
+
+If you choose a generic compound, add a comment explaning what and why you made it.
 
 **I made a mistake and entered some wrong data** Most of the times the form could catch the mistake and won't let you add the wrong data. If you realize the data is wrong and have clicked the submit button, you have the chance to fix it in the confirmation page. Edit the corresponding field there or just go back to the original form and fix it there. If you confirmed the data and realize later that was wrong, you should contact Ivan or Paul.
 
+**What is added to my comments?** If the synthesis or the quality control for a compound are not OK, a comment saying that is automatically added. Feel free to write more if you feel so. (You won't see the automatic comment in the box, it's added at the end of the submission process.)
