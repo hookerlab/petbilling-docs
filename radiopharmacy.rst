@@ -4,7 +4,7 @@ Radiopharmacy
 This describes the use of the tool for our radiopharmacy.
 
 .. Warning::
-   **Should you use this form?** You should only fill out this form for chemicals that were both **produced** in the radiopharmacy and were **not** handed over to Grae. If it was given to Grae, you have to do nothing.
+   **Should you use the web form?** You should only fill out this form for chemicals that were both **produced** in the radiopharmacy and were **not** handed over to Grae. If it was given to Grae, you have to do nothing in the web.
 
 .. Note::
    Before starting you need to have all the data for the product you want to enter. Data for a product can only added if it is complete.
@@ -20,7 +20,7 @@ Meaning of the diffferent fields
 - *time*: time at which the starting activity was measured.
 - *synthesis OK*: wheter the synthesis was sucessful (for compounds only).
 - *quality control OK*: wheter the quality control passed (for compounds only).
-- *comments*: write here anything relevant to the product you made. Sometimes the application adds some comments, so you don't have to repeat common comments (see FAQs.)
+- *comments*: write here anything relevant to the product you made. Sometimes the application adds some comments, so you don't have to repeat common comments (see `FAQs`_.)
 
 What is a compound and what is an isotope
 -----------------------------------------
@@ -33,16 +33,16 @@ The difference between isotopes and compounds is that compounds require a synthe
 Generic compounds
 -----------------
 
-Generic compounds are compounds that are not in the database because they are still in development or they will be used only a few times. When you make only of this compounds, you should choose ``C11-Generic`` or ``F18-Generic``, depending on the isotope used. When you do that a new box will pop out so you can enter a (possible made-up) name for the compound. Also, comment will be automatically added to the database, so you don't have to type this information in the comment field.
+Generic compounds are compounds that are not in the database because they are still in development or they will be used only a few times. When you make one of these compounds, you should choose ``C11-Generic`` or ``F18-Generic``, depending on the isotope used. When you do that a new box will pop out so you can enter a (possible made-up) name for the compound. Also, a comment will be automatically added to the database, so you don't have to type this information in the comment field.
 
-If you are releasing this to Grae, you should use an Rx number like ``160223-01C11GEN``, instead of ``160223-01BEX``, and then add a note with the actual name of the compound.
+If you are releasing this to Grae, you would be passing a paper release form. In this release form, you should use an Rx number like ``160223-01C11GEN``, instead of ``160223-01BEX``, and then add a note with the actual name of the compound.
 
 How the money is charged
 ------------------------
 
 The fees for the different compounds are charged automatically when you fill out the form. You don't have to do anything extra. In general, the project code would be used to choose the proper funding and the amount would be determined from the data you entered.
 
-If you're making a compound and the synthesis or the qaulity control failed, you should complete the form anyway choosing the proper options for the `Syntheis Ok` and `Quality Control OK` fields. The fees charged would be automatically voided and a comment would be added explaining why.
+If you're making a compound and the synthesis or the quality control failed, you should complete the web form anyway, choosing the proper options for the `Syntheis Ok` and `Quality Control OK` fields. The fees charged would be automatically voided and a comment would be added explaining why.
 
 FAQs
 ----
@@ -63,10 +63,8 @@ There are some special project codes for internal tasks:
 | rpt        | Cyclotron Radiotracer Practice or Training |
 +------------+--------------------------------------------+
 
-**I made a compound but it's not in the database** If the compound is a one-time thing, you should choose the generic compounds associated to the isotope you used. For example, if you made something with C11, you should choose C11-Generic as compound. If the compound is something you do often, you should add it to the database (coming soon).
+**I made a compound but it's not in the database** If the compound is a one-time thing, you should choose the `Generic compounds`_ associated to the isotope you used. For example, if you made something with C11, you should choose C11-Generic as compound. If the compound is something you do often, you should add it to the database (coming soon).
 
-If you choose a generic compound, add a comment explaning what and why you made it.
-
-**I made a mistake and entered some wrong data** Most of the times the form could catch the mistake and won't let you add the wrong data. If you realize the data is wrong and have clicked the submit button, you have the chance to fix it in the confirmation page. Edit the corresponding field there or just go back to the original form and fix it there. If you confirmed the data and realize later that was wrong, you should contact Ivan or Paul.
+**I made a mistake and entered some wrong data** Most of the times the form will catch the mistake and won't let you add the wrong data. If you realize the data is wrong and have clicked the submit button, you have the chance to fix it in the confirmation page. Edit the corresponding field there or just go back to the original form and fix it there. If you confirmed the data and realized later that was wrong, you should contact Ivan or Paul.
 
 **What is added to my comments?** If the synthesis or the quality control for a compound are not OK, a comment saying that is automatically added. Feel free to write more if you feel so. (You won't see the automatic comment in the box, it's added at the end of the submission process.)
